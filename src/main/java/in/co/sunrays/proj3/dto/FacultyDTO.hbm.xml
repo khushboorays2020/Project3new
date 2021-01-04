@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 8 Sep, 2019 1:19:31 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping package="in.co.sunrays.proj3.dto">
+    <class name="FacultyDTO" table="ST_FACULTY">
+        <id name="id" column="ID">
+            <generator class="increment"></generator>
+        </id>
+        <property name="First_Name" type="java.lang.String">
+            <column name="FIRST_NAME" />
+        </property>
+        <property name="Cource_Id" type="int">
+            <column name="COURCE_ID" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="College_Name" type="java.lang.String">
+            <column name="COLLEGE_NAME" />
+        </property>
+        <property name="Grnder" type="java.lang.String">
+            <column name="GRNDER" />
+        </property>
+        <property name="Subject_Id" type="int">
+            <column name="SUBJECT_ID" />
+        </property>
+        <property name="Qualification" type="java.lang.String">
+            <column name="QUALIFICATION" />
+        </property>
+        <property name="Last_Name" type="java.lang.String">
+            <column name="LAST_NAME" />
+        </property>
+        <property name="Mobile_No" type="java.lang.String">
+            <column name="MOBILE_NO" />
+        </property>
+        <property name="Login_Id" type="java.lang.String">
+            <column name="LOGIN_ID" />
+        </property>
+        <property name="College_Id" type="int">
+            <column name="COLLEGE_ID" />
+        </property>
+        <property name="Date_Of_joining" type="java.util.Date">
+            <column name="DATE_OF_JOINING" />
+        </property>
+        <property name="Subject_Name" type="java.lang.String">
+            <column name="SUBJECT_NAME" />
+        </property>
+        <property name="Cource_Name" type="java.lang.String">
+            <column name="COURCE_NAME" />
+        </property>
+        <property name="createdBy" type="java.lang.String" length="50">
+            <column name="CREATED_BY" />
+        </property>
+        <property name="modifiedBy" type="java.lang.String" length="50">
+            <column name="MODIFIED_BY" />
+        </property>
+        <property name="createdDatetime" type="java.sql.Timestamp">
+            <column name="CREATED_DATETIME" />
+        </property>
+        <property name="modifiedDatetime" type="java.sql.Timestamp">
+            <column name="MODIFIED_DATETIME" />
+        </property>
+   
+    </class>
+</hibernate-mapping>
